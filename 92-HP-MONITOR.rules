@@ -1,0 +1,1 @@
+KERNEL=="card0", SUBSYSTEM=="drm", ENV{DISPLAY}=":0", ENV{XAUTHORITY}="/home/sjors/.Xauthority", RUN+="/home/sjors/Victoria/victoria_scripts/extend-monitor"

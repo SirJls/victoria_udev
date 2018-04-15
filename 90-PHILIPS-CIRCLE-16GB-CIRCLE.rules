@@ -1,0 +1,1 @@
+SUBSYSTEMS=="usb", ATTRS{idProduct}=="5500", ACTION=="add", ENV{SYSTEMD_USER_WANTS}=="syncphilips.service"
